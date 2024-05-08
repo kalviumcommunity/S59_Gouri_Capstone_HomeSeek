@@ -1,0 +1,17 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+    .left{
+        flex:6;
+        background-color: antiquewhite;
+    }
+
+    .right{
+        flex: 2;
+        background-color: aquamarine;
+    }
+
+}
