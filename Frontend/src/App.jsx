@@ -3,6 +3,7 @@ import Navbar from './components/navbar/Navbar'
 import "./layout.scss"
 import HomePage from './pages/homePage/homepage'
 
+
 function App() {
   return (
     <div className='layout'>
