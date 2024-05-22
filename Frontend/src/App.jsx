@@ -1,8 +1,12 @@
 import React from 'react'
+import Navbar from './components/navbar/Navbar'
+import "./layout.scss"
 
 function App() {
   return (
-    <div>Hi! This is Agra!</div>
+    <div className='layout'>
+     <Navbar/>
+    </div>
   )
 }
 
