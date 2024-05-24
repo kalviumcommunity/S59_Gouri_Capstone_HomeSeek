@@ -6,7 +6,10 @@ function Homepage() {
   return (
     <div className='homePage'>
       <div className="textContainer">
-        <h1>YOUR PARTNER IN PROPERTY</h1>
+        <div className="wrapper">
+        <h1 className='title'>YOUR PARTNER IN PROPERTY</h1>
+        <p>Where Every Listing Tells a Story</p>
+        </div>
       </div>
       <div className="imgContainer">
         <img src={bg} alt=''></img>
