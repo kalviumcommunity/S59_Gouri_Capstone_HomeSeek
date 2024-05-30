@@ -2,9 +2,7 @@
 
 .searchBar{
     .type{
-        @include sm{
-            // margin-bottom: 5px;
-        }
+        
         button{
             padding: 16px 36px;
             border: 1px solid #59C1BD;
@@ -23,9 +21,7 @@
                 border-top-left-radius: 5px;
                 border-right: none;
                 
-                @include sm{
-                    // border: 1px solid #59C1BD;
-                }
+                
             }
 
             &:last-child{
