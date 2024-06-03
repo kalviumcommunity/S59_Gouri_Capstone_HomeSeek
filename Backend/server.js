@@ -17,4 +17,4 @@ const connectToDB = async () => {
     }
   };
   connectToDB()
-app.listen(port,()=>console.log(`Server running on the port${port}`))
+app.listen(port,()=>console.log(`Server running on port${port}`))
