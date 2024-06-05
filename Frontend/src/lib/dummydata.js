@@ -6,9 +6,9 @@ export const listData=[
         bedroom: 2,
         bathroom: 1,
         price: 1000,
-        address: "11, Shanker Puri Kedar Nagar, Agra",
-        latitude: 51.5074,
-        longitude: -0.1278
+        address: "25,Main street , Near Taj Mahal, Agra",
+        latitude: 27.1751,
+        longitude: 78.0421
     },
     {
         id: 2,
@@ -17,9 +17,10 @@ export const listData=[
         bedroom: 1,
         bathroom: 1,
         price: 800,
-        address: "25 Main Street, Downtown, Agra",
-        latitude: 51.5123,
-        longitude: -0.1235
+        address: "7,chaat market, Sadar Bazaar, Agra",
+        latitude: 27.1616,
+        longitude: 78.0102
+
     },
     {
         id: 3,
@@ -28,9 +29,9 @@ export const listData=[
         bedroom: 3,
         bathroom: 2,
         price: 1500,
-        address: "7 Hilltop Drive, Agra",
-        latitude: 51.5100,
-        longitude: -0.1290
+        address: "7 Hilltop Drive,Fatehabad Road, Agra",
+        latitude: 27.1594,
+        longitude: 78.0471
     },
     {
         id: 4,
@@ -39,9 +40,9 @@ export const listData=[
         bedroom: 2,
         bathroom: 2,
         price: 1200,
-        address: "15 Oak Street, Historic District, Agra",
-        latitude: 51.5098,
-        longitude: -0.1250
+        address: "15 Oak Street, Historic District,Rakabganj, Agra",
+        latitude: 27.1785,
+        longitude: 78.0081
     },
     {
         id: 5,
@@ -50,20 +51,20 @@ export const listData=[
         bedroom: 2,
         bathroom: 1,
         price: 1100,
-        address: "33 River Road, Riverside, Agra",
-        latitude: 51.5085,
-        longitude: -0.1305
+        address: "33, Yamuna Kinara Road,  Agra",
+        latitude: 27.1820,
+        longitude: 78.0289
     },
     {
         id: 6,
         title: "Luxury Penthouse with Panoramic Views",
         img: "https://i.pinimg.com/originals/98/ed/06/98ed06c24cf5e703fe22298ef464ac1b.jpg",
         bedroom: 4,
-        bathroom: 3,
+        bathroom: 3, 
         price: 2500,
-        address: "1 High Rise Avenue, Agra",
-        latitude: 51.5060,
-        longitude: -0.1265
+        address: "1 High Rise Avenue, MG Road, Agra",
+        latitude: 27.1925,
+        longitude: 78.0081
     },
     {
         id: 7,
@@ -72,9 +73,9 @@ export const listData=[
         bedroom: 3,
         bathroom: 2,
         price: 1400,
-        address: "55 Suburbia Street, Suburbia, Agra",
-        latitude: 51.5112,
-        longitude: -0.1288
+        address: "55 Suburbia Street, Suburbia,Shahganj, Agra",
+        latitude: 27.2005,
+        longitude: 78.0127
     },
     {
         id: 8,
@@ -83,9 +84,9 @@ export const listData=[
         bedroom: 5,
         bathroom: 4,
         price: 3500,
-        address: "2 Grand Avenue, Agra",
-        latitude: 51.5078,
-        longitude: -0.1245
+        address: "2 Grand Avenue,Khandari, Agra",
+        latitude: 27.1856,
+        longitude: 78.0096
     },
     {
         id: 9,
@@ -95,7 +96,7 @@ export const listData=[
         bathroom: 1,
         price: 900,
         address: "40 Park Lane, Agra",
-        latitude: 51.5095,
-        longitude: -0.1310
+        latitude: 27.1646,
+        longitude: 78.0355
     }
 ]
