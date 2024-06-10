@@ -118,7 +118,7 @@ export const singlePostData ={
     size:861,
     latitude: 27.1751,
     longitude: 78.0421,
-    city:Agra,
+    city: "Agra",
     address: "25,Main street , Near Taj Mahal, Agra",
     school:"250m away",
     bus:"100m away",
