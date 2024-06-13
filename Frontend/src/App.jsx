@@ -7,6 +7,7 @@ import {
 import Layout from './pages/layout/layout';
 import ListPage from './pages/listPage/listPage';
 import SinglePage from './pages/singlePage/singlePage';
+import ProfilePage from './pages/profilePage/profilePage';
 
 
 function App() {
@@ -27,6 +28,10 @@ function App() {
         {
           path:"/:id",
           element:<SinglePage/>
+        },
+        {
+          path:"/profile",
+          element:<ProfilePage/>
         }
       ]
     },
