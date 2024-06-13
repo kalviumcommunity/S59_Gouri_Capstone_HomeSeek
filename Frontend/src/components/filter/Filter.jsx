@@ -1,11 +1,13 @@
 import React from 'react'
 import search from "../../assets/search.png"
+import "./filter.scss";
+
 
 
 function Filter() {
   return (
     <div className="filter">
-      <h1>Search results for<b>Agra</b></h1>
+      <h1>Search results for <b>Agra</b></h1>
       <div className="top">
         <div className="item">
           <label htmlFor="city">Location</label>
