@@ -99,4 +99,38 @@ export const listData=[
         latitude: 27.1646,
         longitude: 78.0355
     }
-]
+];
+
+
+export const singlePostData ={
+    id: 1,
+    title: "A great apartment next to the city centre",
+    price: 1000,
+    images:[
+     "https://th.bing.com/th/id/OIP.iE7mcw3w2aFFDhXP9A1lggHaE8?rs=1&pid=ImgDetMain",
+     "https://th.bing.com/th?id=OIP.yoJYCeS5kTSujn4syQBfBgHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+     "https://th.bing.com/th/id/OIP.UB7BT3YPQjpidUcKh6Rp-gExDM?w=266&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+     "https://th.bing.com/th/id/OIP.XhaUgBiwqC_47I9MFpFnNQHaE8?w=294&h=196&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+    ],
+
+    bedroom: 2,
+    bathroom: 1,
+    size:861,
+    latitude: 27.1751,
+    longitude: 78.0421,
+    city: "Agra",
+    address: "25,Main street , Near Taj Mahal, Agra",
+    school:"250m away",
+    bus:"100m away",
+    restaurant:"50m away",
+    description:
+    "This stylish and modern apartment offers the perfect blend of comfort and convenience, located just minutes away from the bustling city centre. Ideal for professionals, couples, or anyone looking to experience urban living at its finest."
+
+};
+
+export const userData={
+    id: 1,
+    name: "Gouri Agarwal",
+    img:"https://th.bing.com/th?id=OIP.2i5UaEHaQM3PYAYXQyM1AAAAAA&w=249&h=249&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"
+
+};
