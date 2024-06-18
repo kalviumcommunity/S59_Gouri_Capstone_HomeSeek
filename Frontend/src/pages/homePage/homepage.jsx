@@ -13,12 +13,12 @@ function Homepage() {
         <SearchBar/>
         <div className="boxes">
           <div className="box"></div>
-          <h1>120k</h1>
-          <h2>people believe in our service</h2>
+          <h1>120k </h1>
+          <h2> people believe in our service</h2>
 
           <div className="box"></div>
-          <h1>3000</h1>
-          <h2>Property and house ready for occupancy</h2>
+          <h1>3000 </h1>
+          <h2> Property and house ready for occupancy</h2>
           
         </div>
         </div>
