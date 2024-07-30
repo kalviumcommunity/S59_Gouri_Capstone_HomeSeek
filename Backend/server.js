@@ -6,7 +6,10 @@ const app = express();
 const port = 8080;
 
 const MONGODB_URI = process.env.MONGODB_URI;
-
+` `
+app.get('/',async (req, res) => {
+  res.send('Connected');
+});
 
 const connectToDB = async () => {
     try {
