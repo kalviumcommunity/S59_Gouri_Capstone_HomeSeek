@@ -1,9 +1,6 @@
 import React from 'react'
 import HomePage from './pages/homePage/homepage'
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import { createBrowserRouter,RouterProvider} from "react-router-dom";
 import Layout from './pages/layout/layout';
 import ListPage from './pages/listPage/listPage';
 import SinglePage from './pages/singlePage/singlePage';
@@ -15,15 +12,15 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Layout/>,
+      element: <Layout key="layout"/>,
       children:[
         {
           path:"/",
-          element:<HomePage/>
+          element:<HomePage key="home"/>
         },
         {
           path:"/list",
-          element:<ListPage/>
+          element:<ListPage key="list"/>
         },
         {
           path:"/list/:id",
