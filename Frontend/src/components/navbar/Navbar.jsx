@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.scss";
 import logo from "../../assets/logo.png";
 import menu from "../../assets/menu.png";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
@@ -23,11 +23,11 @@ function Navbar() {
       <div className="right">
         {user ? (
           <div className="user">
-            <img src="https://th.bing.com/th?id=OIP.2i5UaEHaQM3PYAYXQyM1AAAAAA&w=249&h=249&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"/>
+            <img src="https://th.bing.com/th?id=OIP.2i5UaEHaQM3PYAYXQyM1AAAAAA&w=249&h=249&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" />
             <span>Gouri Agarwal</span>
             <Link to="/profile" className="profile">
-            <div className="notification"> 2 </div>
-            <span>Profile</span>
+              <div className="notification"> 2 </div>
+              <span>Profile</span>
             </Link>
           </div>
         ) : (
@@ -39,7 +39,7 @@ function Navbar() {
           </>
         )}
         <div className="menuIcon">
-          <img src={menu} alt="Menu" onClick={()=>setOpen(!open)} />
+          <img src={menu} alt="Menu" onClick={() => setOpen(!open)} />
         </div>
 
         <div className={open ? "menu active" : "menu"}>
