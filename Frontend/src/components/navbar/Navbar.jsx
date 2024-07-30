@@ -12,7 +12,7 @@ function Navbar() {
     <nav>
       <div className="left">
         <a href="/" className="logo">
-          <img src={logo} alt="" />
+          <img src={logo} alt="Logo img" />
           <span>HomeSeek</span>
         </a>
         <a href="/list">Home</a>
@@ -39,7 +39,11 @@ function Navbar() {
           </>
         )}
         <div className="menuIcon">
+<<<<<<< HEAD
           <img src={menu} alt="" onClick={() => setOpen(!open)} />
+=======
+          <img src={menu} alt="Menu" onClick={()=>setOpen(!open)} />
+>>>>>>> c76eb538074910286515ae580039fa1ff7f2a5d7
         </div>
 
         <div className={open ? "menu active" : "menu"}>
