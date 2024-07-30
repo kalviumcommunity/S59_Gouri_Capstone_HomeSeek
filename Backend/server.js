@@ -23,3 +23,4 @@ app.listen(port, () => {
 app.get("/", async (req, res) => {
   res.send("Connected Successfully! 😊");
 });
+
