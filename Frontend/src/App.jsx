@@ -23,7 +23,7 @@ function App() {
           element:<ListPage key="list"/>
         },
         {
-          path:"/:id",
+          path:"/list/:id",
           element:<SinglePage/>
         },
         {
