@@ -15,7 +15,7 @@ function Chat() {
                 <span>Gouri Agarwal</span>
                 <p>Hey,how are you?</p>
             </div>
-            <div className="message">
+            <div cla    ssName="message">
                 <img src='https://th.bing.com/th?id=OIP.2i5UaEHaQM3PYAYXQyM1AAAAAA&w=249&h=249&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2' 
                 alt='img'/>
                 <span>Gouri Agarwal</span>
