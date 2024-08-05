@@ -1,4 +1,4 @@
-const mongoose=require('mongoose')
+const mongoose = require('mongoose'); 
 
 const singlePostSchema = new mongoose.Schema({
     title: { type: String, required: true },
@@ -17,6 +17,6 @@ const singlePostSchema = new mongoose.Schema({
     description: { type: String, required: true }
 });
 
-const SinglePost = mongoose.model('SinglePost', singlePostSchema);
+const SinglePost = mongoose.model('SinglePost', singlePostSchema); 
 
-module.exports = SinglePost;
+module.exports = SinglePost; 
