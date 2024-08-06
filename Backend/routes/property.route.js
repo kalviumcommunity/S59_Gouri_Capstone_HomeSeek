@@ -10,7 +10,8 @@ propertyRouter.post('/addproperty',async(req,res)=>{
         res.status(201).send("Property added Successfully")
     }
     catch(error){
-        res.status(400).send("error adding property")
+        console.error(`Error adding propert:${error.message}`,error)
+        res.status(400).send({message:"error adding property",error:error.message});
     }
 });
 
