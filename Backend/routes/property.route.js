@@ -31,8 +31,10 @@ propertyRouter.put('/property/:id', async (req, res) => {
       }
       res.status(200).send({ message: "Property updated successfully", updatedProperty });
     } catch (error) {
-      console.error(`Error updating property: ${error.message}`, error);
-      res.status(400).send({ message: "Error updating property", error: error.message });
+      console.error(`Error updating the property: ${error.message}`, error);
+      const statusCode = error.name === 'CastError' || error.name === 'ValidationError' ? 400 : 500;
+    const errorMessage = error.name === 'CastError' ? "Invalid property ID format" : error.message;
+      res.status(statusCode).send({ message: "Error updating the property", error: error.message });
     }
   });
 
