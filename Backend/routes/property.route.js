@@ -5,7 +5,7 @@ const propertyRouter = express.Router();
 
 propertyRouter.get('/property', async (req, res) => {
   try {
-    const property = await Property.find().select('title');
+    const property = await Property.find();
     res.json({ property });
   } catch (error) {
     res.status(500).json({ error: 'Error fetching property' });
@@ -22,5 +22,20 @@ propertyRouter.post('/addproperty', async (req, res) => {
     res.status(400).send({ message: "Error adding property", error: error.message });
   }
 });
+
+propertyRouter.put('/property/:id', async (req, res) => {
+    try {
+      const updatedProperty = await Property.findByIdAndUpdate(req.params.id, req.body, { new: true });
+      if (!updatedProperty) {
+        return res.status(404).send({ message: "Property not found" });
+      }
+      res.status(200).send({ message: "Property updated successfully", updatedProperty });
+    } catch (error) {
+      console.error(`Error updating the property: ${error.message}`, error);
+      const statusCode = error.name === 'CastError' || error.name === 'ValidationError' ? 400 : 500;
+    const errorMessage = error.name === 'CastError' ? "Invalid property ID format" : error.message;
+      res.status(statusCode).send({ message: "Error updating the property", error: error.message });
+    }
+  });
 
 module.exports = propertyRouter;
